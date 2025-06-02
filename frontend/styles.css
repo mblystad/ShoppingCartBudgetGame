@@ -1,0 +1,144 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto 20px auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+}
+
+.mission-ui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.stars {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.mission-box {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1em;
+}
+
+/* New check section styling */
+.check-section {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.check-section p {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-btn img {
+    height: 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.icon-btn:hover img {
+    transform: scale(1.15);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.start-btn {
+    padding: 10px 16px;
+    background: #00bcd4;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.start-btn:hover {
+    background: #0097a7;
+}
+
+.inventory, .cart {
+    margin-top: 30px;
+}
+
+.items {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    font-size: 1em;
+    padding: 10px 14px;
+    background: #f0f4c3;
+    border: 2px solid #cddc39;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.item:hover {
+    background: #e6ee9c;
+    transform: scale(1.05);
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.cart li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.clear-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #ef5350;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.clear-btn:hover {
+    background: #d32f2f;
+}
